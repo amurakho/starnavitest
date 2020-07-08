@@ -30,3 +30,5 @@
 
 #### NOTE: i didt make test and didn use logging. I just use print for loggin because i think the better solution for logging its to make it with decorators. So i did think that the task need this
 #### NOTE: if you create superuser from manage.py it didnt create UserActivity model because this model are created in signals. So to solve it i should create custom manager for my model. And i didt create it because i have no task to work with admin
+
+## NOTE: user requirements.txt and also make migrations before work
